@@ -7,7 +7,7 @@ from time import *
 
 bayear = int(input("what year would you like to see movies AFTER AND BEFORE???"))
 for movie in data:
-    sleep(0.01)
+    sleep(0.001)
     if movie["year"] < bayear:
         print("movies before the year", bayear)
         print(movie["title"]) 
